@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway');
+
+
+.bigBoy
+{
+  display: flex;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: flex-end;
+  margin-right: 2rem;
+}
+.navBar{
+    width:inherit; 
+    height: 10vh;
+    top: 0px; 
+    padding-left:30px; 
+    padding-right: 30px; 
+    display:flex; 
+    justify-content: center;
+    background-color: black;
+    color: white; 
+    margin: none;
+
+
+}
+
+
+
+.btn{
+    /*display: inline-block;*/
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+    color:white; 
+    border: none;
+    height: 60px; 
+    padding: 20px 30px; 
+    /* box-shadow: 0 9px #999; */
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    font-style: italic;
+
+  
+  
+  }
+  
+  .btn:hover
+  {
+    background-color: white;
+    /* background-color: rgb(173, 189, 188); */
+    color: black;
+  }
+  .btn:active {
+    
+    background-color: lightgrey;
+
+  }
+
+  .menuItem{
+    display:block; 
+    height: 60px;
+    background-color: white;
+    color:black; 
+  }
+
+
+
+  
+
+  .subMenuBtn{
+       /*display: inline-block;*/
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+    color:white; 
+    border: none;
+    height: 60px; 
+    padding: 20px 30px; 
+    /* box-shadow: 0 9px #999; */
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    font-style: italic;
+
+  }
+  .subMenuBtnWMenu
+  {
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+    color:black; 
+    border: none;
+    height: 60px; 
+    padding: 20px 30px; 
+    /* box-shadow: 0 9px #999; */
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    font-style: italic;
+  }
+  
+  .subMenuBtn:hover
+  {
+    background-color: white;
+    /* background-color: rgb(173, 189, 188); */
+    color: black;
+  }
+  .subMenuBtn:active {
+    
+    background-color: lightgrey;
+
+  }
+  
+
+  .dropdownMenu{
+    width:inherit; 
+    text-align: start;
+    list-style: none;
+    position: absolute; 
+
+  }
+  .dropdownLink{
+    list-style: none;
+    text-decoration: none;
+    display: block; 
+    width: inherit; 
+    height: 100%; 
+
+  }
+
+  .dropdownbtn{
+    font-family: 'Raleway', sans-serif;
+    background-color: white; 
+     color:black; 
+    width:243px; 
+     border: none;
+    padding: 20px 30px; 
+    cursor: pointer;
+    font-size: 15px;
+    font-style: italic;
+    height: inherit; 
+    
+  }
+  .dropdownbtn:hover
+  {
+    background-color: lightgray;
+    color: white;
+  }
+
+ 
+
+ 
+  
+   
+  
+

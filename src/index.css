@@ -1,13 +1,160 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+
+*{
+  margin: 0; 
+  padding: 0; 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  max-width: 100vw; 
+  max-height: 100vh;
+  display: flex; 
+  flex-direction: column;
+  overflow: auto;
+  height: fit-content; 
 }
+
+.home-body {
+  height: 90vh; 
+  width:100%; 
+  
+}
+.home-text{
+  text-align: center;
+  color: white;
+  margin-top: 3vh;
+  font-family: 'IM Fell English SC', serif;
+  font-size: 10vh; 
+  text-shadow: 2px 2px black;
+}
+
+.page-body{
+  height: 100%; 
+  width:100%; 
+  margin-top: 0;
+  padding-top: 10vh; 
+  padding-bottom: 5vh;
+  background-color: white;
+  display: grid; 
+  justify-content: center;
+  grid-column-gap:3vw; 
+  grid-row-gap: 20px;
+  grid-template-columns: 27vw 27vw 27vw;
+   
+}
+.card{
+  display: flex; 
+  background-color: white;
+  flex-direction: column;
+  padding: 0vh 1vw; 
+  /* margin: 0 1rem; */
+  box-shadow: 0 4px 8px 2px rgba(77, 77, 77, 0.15);
+  width: 25vw; 
+  height: 50vh; 
+  justify-content: center;
+  text-align: center;
+  /* padding: 10px;  */
+}
+
+img{
+  height:30vh; 
+  width: 90%; 
+}
+.card-img{
+  height: 30vh;
+  width:100%; 
+  justify-content: center;
+
+}
+
+.pastaImg{
+  object-fit: cover;
+}
+
+.card-title p{
+  height: 50px;
+  display: flex; 
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  vertical-align: center;
+  font-size: 2vw;
+  font-style: italic;
+}
+
+.pastabtn
+{
+  font-family: 'Raleway', sans-serif;
+    background-color: black; 
+     color:white; 
+     border-style: none;
+     border-radius: 20px;
+      padding:5px; 
+    font-size: 1.3vw;
+    font-style: italic;
+
+}
+.recipe-section{
+  /* padding-top: 50px;
+  padding-bottom: 10px; 
+ 
+  flex-direction: column; */
+  display:flex;
+  justify-content: center;
+  grid-area:1/1/ span 2/span 3;
+  
+
+}
+
+.recipe-card{
+  
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  /* padding: 20px;  */
+  box-shadow: 0 4px 8px 2px rgba(77, 77, 77, 0.15);
+  width: 75%; 
+  height: 75vh; 
+  justify-content: center;
+  text-align: center;
+  
+  
+}
+.recipe-img{
+  margin-top: 0; 
+  height: 60%;
+  width:100%; 
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+.recipe-img img{
+  height: 100%; 
+  width: 90%;
+  object-position:center;
+}
+
+.recipebtn
+{
+  font-family: 'Raleway', sans-serif;
+    background-color: black; 
+     color:white; 
+     border-style: none;
+     border-radius: 20px;
+     padding:5px; 
+     font-size: 1.3vw;
+    font-style: italic;
+
+}
+.exit
+{
+  margin-top: 5px;
+}
+
