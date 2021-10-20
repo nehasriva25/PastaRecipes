@@ -2,7 +2,7 @@ export const pastaTypes = [
     {
         id: 1, 
         name: "Shaped", 
-        path: "./shaped",
+        path: "/shaped",
 
     },
     {
