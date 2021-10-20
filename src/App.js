@@ -24,22 +24,22 @@ function App() {
         <Route path ='/PastaRecipes' exact>
           <Home  /> 
         </Route>
-        <Route path = '/shaped'>
+        <Route path = '/PastaRecipes/shaped'>
           <ShapedPasta />
         </Route>
-        <Route path = '/stuffed'>
+        <Route path = '/PastaRecipes/stuffed'>
           <StuffedPasta  />
         </Route>
-        <Route path = '/tubular'>
+        <Route path = '/PastaRecipes/tubular'>
           <TubularPasta />
         </Route>
-        <Route path = '/ribbon'>
+        <Route path = '/PastaRecipes/ribbon'>
           <RibbonPasta />
         </Route>
-        <Route path = '/soup'>
+        <Route path = '/PastaRecipes/soup'>
           <SoupPasta  />
         </Route>
-        <Route path = '/strand'>
+        <Route path = '/PastaRecipes/strand'>
           <StrandPasta />
         </Route>
       </Switch>  

@@ -2,37 +2,37 @@ export const pastaTypes = [
     {
         id: 1, 
         name: "Shaped", 
-        path: "./shaped"
+        path: "./PastaRecipes/shaped"
 
     },
     {
         id: 2, 
         name: "Stuffed", 
-        path: "./stuffed"
+        path: "./PastaRecipes/stuffed"
 
     },
     {
         id: 3, 
         name: "Soup", 
-        path: "./soup"
+        path: "./PastaRecipes/soup"
 
     },
     {
         id: 4, 
         name: "Tubular", 
-        path: "./tubular"
+        path: "./PastaRecipes/tubular"
 
     },
     {
         id: 5, 
         name: "Strand", 
-        path: "./strand"
+        path: "./PastaRecipes/strand"
 
     },
     {
         id: 6, 
         name: "Ribbon", 
-        path: "./ribbon"
+        path: "./PastaRecipes/ribbon"
 
     }
 ]; 
