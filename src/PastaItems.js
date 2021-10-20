@@ -8,31 +8,31 @@ export const pastaTypes = [
     {
         id: 2, 
         name: "Stuffed", 
-        path: "./stuffed",
+        path: "/stuffed",
 
     },
     {
         id: 3, 
         name: "Soup", 
-        path: "./soup",
+        path: "/soup",
 
     },
     {
         id: 4, 
         name: "Tubular", 
-        path: "./tubular",
+        path: "/tubular",
 
     },
     {
         id: 5, 
         name: "Strand", 
-        path: "./strand",
+        path: "/strand",
 
     },
     {
         id: 6, 
         name: "Ribbon", 
-        path: "./ribbon",
+        path: "/ribbon",
 
     }
 ]; 
