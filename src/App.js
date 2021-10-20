@@ -8,7 +8,7 @@ import SoupPasta from './SoupPasta';
 import StrandPasta from './StrandPasta';
 import StuffedPasta from './StuffedPasta';
 import TubularPasta from './TubularPasta';
-import {Route, Switch} from 'react-router-dom';
+import {HashRouter, Route, Switch} from 'react-router-dom';
 
 function App() {
   // Different types of Pasta data.
@@ -16,33 +16,32 @@ function App() {
   return (
     <div className = "container">
         <Navigation  /> 
-
-      
-      
-
-       <Switch>
-        <Route path ='/PastaRecipes' exact>
+        <Switch>
+        <Route path ='/' exact>
           <Home  /> 
         </Route>
-        <Route path = '/PastaRecipes/shaped'>
+        <Route path = '/shaped'>
           <ShapedPasta />
         </Route>
-        <Route path = '/PastaRecipes/stuffed'>
+        <Route path = '/stuffed'>
           <StuffedPasta  />
         </Route>
-        <Route path = '/PastaRecipes/tubular'>
+        <Route path = '/tubular'>
           <TubularPasta />
         </Route>
-        <Route path = '/PastaRecipes/ribbon'>
+        <Route path = '/ribbon'>
           <RibbonPasta />
         </Route>
-        <Route path = '/PastaRecipes/soup'>
+        <Route path = '/soup'>
           <SoupPasta  />
         </Route>
-        <Route path = '/PastaRecipes/strand'>
+        <Route path = '/strand'>
           <StrandPasta />
         </Route>
-      </Switch>  
+      </Switch> 
+      
+
+      
     
     </div>
   );

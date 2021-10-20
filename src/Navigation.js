@@ -12,7 +12,7 @@ function Navigation(){
         <div className = {classes.main}>
              <nav className = {classes.navBar}>
                <div className = {classes.home}>
-               <Link to= '/PastaRecipes'><Button className ={classes.btn} title= {"Home"}/></Link>
+               <Link to= '/'><Button className ={classes.btn} title= {"Home"}/></Link>
                </div>
                <ul className = {classes.bigBoy}>
                    
