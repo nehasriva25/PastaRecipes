@@ -21,7 +21,7 @@ function App() {
       
 
        <Switch>
-        <Route path ='/' exact>
+        <Route path ='/PastaRecipes' exact>
           <Home  /> 
         </Route>
         <Route path = '/shaped'>
