@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/PastaRecipes/static/css/main.283046fb.chunk.css",
-    "main.js": "/PastaRecipes/static/js/main.77e38298.chunk.js",
-    "main.js.map": "/PastaRecipes/static/js/main.77e38298.chunk.js.map",
+    "main.js": "/PastaRecipes/static/js/main.470f5a70.chunk.js",
+    "main.js.map": "/PastaRecipes/static/js/main.470f5a70.chunk.js.map",
     "runtime-main.js": "/PastaRecipes/static/js/runtime-main.ad587310.js",
     "runtime-main.js.map": "/PastaRecipes/static/js/runtime-main.ad587310.js.map",
-    "static/js/2.71f4de12.chunk.js": "/PastaRecipes/static/js/2.71f4de12.chunk.js",
-    "static/js/2.71f4de12.chunk.js.map": "/PastaRecipes/static/js/2.71f4de12.chunk.js.map",
+    "static/js/2.16911883.chunk.js": "/PastaRecipes/static/js/2.16911883.chunk.js",
+    "static/js/2.16911883.chunk.js.map": "/PastaRecipes/static/js/2.16911883.chunk.js.map",
     "static/js/3.77c7b561.chunk.js": "/PastaRecipes/static/js/3.77c7b561.chunk.js",
     "static/js/3.77c7b561.chunk.js.map": "/PastaRecipes/static/js/3.77c7b561.chunk.js.map",
     "index.html": "/PastaRecipes/index.html",
     "static/css/main.283046fb.chunk.css.map": "/PastaRecipes/static/css/main.283046fb.chunk.css.map",
-    "static/js/2.71f4de12.chunk.js.LICENSE.txt": "/PastaRecipes/static/js/2.71f4de12.chunk.js.LICENSE.txt"
+    "static/js/2.16911883.chunk.js.LICENSE.txt": "/PastaRecipes/static/js/2.16911883.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ad587310.js",
-    "static/js/2.71f4de12.chunk.js",
+    "static/js/2.16911883.chunk.js",
     "static/css/main.283046fb.chunk.css",
-    "static/js/main.77e38298.chunk.js"
+    "static/js/main.470f5a70.chunk.js"
   ]
 }
